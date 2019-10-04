@@ -22,12 +22,17 @@ export default {
       return this.lang === 'es'
         ? 'Leer más'
         : 'Read More';
+    },
+    getPostPath(){
+      return this.lang === 'es'
+        ? '/es/'
+        : '/';
     }
   },
   computed: {
     posts() {
       return this.$site.pages
-        .filter(x => x.path.startsWith(`/${this.lang}/blog/`) && !x.frontmatter.blog_index)
+        .filter(x => x.path.startsWith(`${this.getPostPath()}blog/`) && !x.frontmatter.blog_index)
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
