@@ -8,7 +8,7 @@
       <p>{{ post.frontmatter.description }}</p>
 
       <p>
-        <router-link :to="post.path">Read more</router-link>
+        <router-link :to="post.path">{{ getReadMoreText() }}</router-link>
       </p>
     </div>
   </div>
@@ -16,10 +16,18 @@
 
 <script>
 export default {
+  props: ['lang'],
+  methods:{
+    getReadMoreText(){
+      return this.lang === 'es'
+        ? 'Leer más'
+        : 'Read More';
+    }
+  },
   computed: {
     posts() {
       return this.$site.pages
-        .filter(x => x.path.startsWith("/blog/") && !x.frontmatter.blog_index)
+        .filter(x => x.path.startsWith(`/${this.lang}/blog/`) && !x.frontmatter.blog_index)
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
         );
