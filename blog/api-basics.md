@@ -27,7 +27,7 @@ For being able of running the api server, we need express. So for **installing**
 npm init -y
 ```
 
-which will create a package.json for keeping track of all the dependencies, and then:
+which will create a `package.json` for keeping track of all the dependencies, and then:
 
 ```bash
 npm i express --save
@@ -58,8 +58,10 @@ node index.js # Exected output: Server running...
 
 Which will execute the file and run the server. Let's keep this running, and test it.
 
-## 4. Test your api
-Remember that this APIs architecture are server client based. In this case our server that is running is the sever side, soy now we need a client. There are several clients we may use, but `curl` is the easiest and quickest tools for creating a http request. So for testing our running server we need to execute:
+## 4. Test your API
+Remember that this APIs architecture are server client based. In this case our server that is running is the sever side, so now we need a client. 
+
+There are several clients we may use, but `curl` is the easiest and quickest tools for creating a http request. So for testing our running server we need to execute:
 ```bash
 # Expected output: Hello World!
 curl http://localhost:5000/

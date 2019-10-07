@@ -4,6 +4,6 @@ blog_index: true
 
 # Blog
 
-Welcome on Outreach shame blog
+Welcome to Manguito Blue Blog
 
-<BlogIndex />
+<BlogIndex lang="en" />
