@@ -3,3 +3,4 @@ Este es el sitio de manguito blue. Cualquier comentario o sugerencia manda un em
 
 <img src="../assets/mb-logo.svg">
 
+<MailchimpInput/>
