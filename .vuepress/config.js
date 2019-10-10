@@ -5,11 +5,13 @@ module.exports = {
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
     '/': {
+      ga: 'UA-149793240-1',
       lang: 'en-US', // this will be set as the lang attribute on <html>
       title: 'Manguito Blue Blog',
       description: 'Blog for sharing knowledge about technology'
     },
     '/es/': {
+      ga: 'UA-149793240-1',
       lang: 'es-MX',
       title: 'Manguito Blue Blog',
       description: 'Blog para compartir conocimiento sobre tecnología'
