@@ -1,0 +1,24 @@
+{
+  "name": "manguito-blog-vuepress",
+  "version": "1.0.0",
+  "description": "This is the manguito blue blog site. Any issues or suggestions, email us at hello@manguitoblue.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manguito-blue-education/main-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manguito-blue-education/main-blog/issues"
+  },
+  "homepage": "https://github.com/manguito-blue-education/main-blog#readme",
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "vuepress": "^1.1.0"
+  }
+}
