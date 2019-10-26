@@ -48,7 +48,11 @@
       </section>
       <section class="how-it-works">
         <h2 class="subtitle">Me interesa, ¿cómo accedo al curso?</h2>
-        <p></p>
+        <p>
+          El curso inicia el
+          <strong>11 de noviembre de 2019</strong>, puedes registrarte desde este momento en el
+          formulario que se encuentra al final de la página.
+        </p>
         <p>El fin de semana antrior al inicio del curso te daremos acceso a nuestra plataforma. Cada día publicaremos el contenido del curso, que consistirá en uno o varios videos (dependiendo de la complejidad del tema) donde se explicará el tema de manera teórica, posteriormente veremos ejemplos en código y finalmente te pondremos pequeños retos que te ayudarán a reforzar el tema.</p>
       </section>
       <!-- <section>
@@ -68,10 +72,22 @@
 .container {
   border-top: 10px solid #ffc400;
 }
+@keyframes intro-animation {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .main-content {
   max-width: 780px;
   margin: 0 auto;
   font-size: 1.15rem;
+  animation: intro-animation 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .main-content * + * {
