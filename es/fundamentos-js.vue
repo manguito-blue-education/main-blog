@@ -53,7 +53,7 @@
           <strong>11 de noviembre de 2019</strong>, puedes registrarte desde este momento en el
           formulario que se encuentra al final de la página.
         </p>
-        <p>El fin de semana antrior al inicio del curso te daremos acceso a nuestra plataforma. Cada día publicaremos el contenido del curso, que consistirá en uno o varios videos (dependiendo de la complejidad del tema) donde se explicará el tema de manera teórica, posteriormente veremos ejemplos en código y finalmente te pondremos pequeños retos que te ayudarán a reforzar el tema.</p>
+        <p>El fin de semana anterior al inicio del curso te daremos acceso a nuestra plataforma. Cada día publicaremos el contenido del curso, que consistirá en uno o varios videos (dependiendo de la complejidad del tema) donde se explicará el tema de manera teórica, posteriormente veremos ejemplos en código y finalmente te pondremos pequeños retos que te ayudarán a reforzar el tema.</p>
       </section>
       <!-- <section>
         <h2 class="subtitle">¿Por qué tomar este curso?</h2>
