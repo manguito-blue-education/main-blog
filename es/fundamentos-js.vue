@@ -11,13 +11,13 @@
         <p>Sé lo que sientes en estos momentos, porque alguna vez yo estuve en tu lugar.</p>
         <p>Durante mucho tiempo omití el aprender JavaScript a pesar de saber que era esencial para cumplir mi objetivo de volverme desarrollador web, algunas de las razones por las no me comprometía a aprender eran las siguientes:</p>
         <ul class="bullet-list">
-          <li>Tenía miedo de sentirme inútil, pues no tenía conocimientos previos de programación, y la mayoría de los tutoriales que tomaba estaban dirigidos a personas con cierta noción de estos temas.</li>
+          <li>Tenía miedo, pues no tenía conocimientos previos de programación, y la mayoría de los tutoriales que tomaba estaban dirigidos a personas con cierta noción de estos temas.</li>
           <li>Había demasiada información sobre qué aprender, cómo aprenderlo y este exceso de recursos me agobiaba lo que me orillaba a postergar mi aprendizaje porque quería que fuera perfecto.</li>
         </ul>
         <p>Después de mucho procrastinar y no tomarme en serio mi aprendizaje, me comprometí a aprender para cumplir mi sueño. Durante mi camino me di cuenta de algo:</p>
         <h3>La mejor manera de aprender JavaScript, es dominando las bases del lenguaje.</h3>
-        <p>Quiero que por un momento pienses que un lenguaje de programación no es muy diferente a un lenguaje hablado, como el inglés o francés</p>
-        <p>Si quieres aprender alguno de estos idiomas, primero tendrías que saber las reglas gramáticales, pues son lo que de la estructura del mismo. Si no tuvieras noción de estas reglas, no podrías crear oraciones con sentido.</p>
+        <p>Quiero que por un momento pienses que un lenguaje de programación no es muy diferente a un lenguaje hablado, como el español</p>
+        <p>Si quieres aprender este idioma, primero tendrías que saber las reglas gramáticales, pues son lo que de la estructura del mismo. Si no tuvieras noción de estas reglas, no podrías crear oraciones con sentido.</p>
         <p>Lo mismo sucede con un lenguaje de programación, el dominar las bases es lo que te permitirá en un futuro, entender y escribir código más complejo.</p>
         <p>Lo anterior, fue lo que me motivó a crear un curso dedicado a enseñar estas bases, con el fin de ayudar a todas las personas que están donde yo alguna vez estuve.</p>
         <h2 class="subtitle">Nuestro compromiso</h2>
@@ -54,6 +54,10 @@
           formulario que se encuentra al final de la página.
         </p>
         <p>El fin de semana anterior al inicio del curso te daremos acceso a nuestra plataforma. Cada día publicaremos el contenido del curso, que consistirá en uno o varios videos (dependiendo de la complejidad del tema) donde se explicará el tema de manera teórica, posteriormente veremos ejemplos en código y finalmente te pondremos pequeños retos que te ayudarán a reforzar el tema.</p>
+
+        <h2 class="subtitle">
+          <a href="https://mailchi.mp/488f29961dfd/manguito-js-course">Registrarme al curso</a>
+        </h2>
       </section>
       <!-- <section>
         <h2 class="subtitle">¿Por qué tomar este curso?</h2>
