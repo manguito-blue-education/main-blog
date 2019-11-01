@@ -55,9 +55,9 @@
         </p>
         <p>El fin de semana anterior al inicio del curso te daremos acceso a nuestra plataforma. Cada día publicaremos el contenido del curso, que consistirá en uno o varios videos (dependiendo de la complejidad del tema) donde se explicará el tema de manera teórica, posteriormente veremos ejemplos en código y finalmente te pondremos pequeños retos que te ayudarán a reforzar el tema.</p>
 
-        <h2 class="subtitle">
-          <a href="https://mailchi.mp/488f29961dfd/manguito-js-course">Registrarme al curso</a>
-        </h2>
+        <a href="https://mailchi.mp/488f29961dfd/manguito-js-course">
+          <button class="register">Registrarme al curso</button>
+        </a>
       </section>
       <!-- <section>
         <h2 class="subtitle">¿Por qué tomar este curso?</h2>
@@ -186,5 +186,25 @@ li::before {
     font-size: 2rem;
     margin: 0;
   }
+}
+
+.register {
+  all: unset;
+  width: 180px;
+  height: 36px;
+  background: #039fe3;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  color: #f9f9f9;
+  margin-bottom: 50px;
+}
+
+.register:hover {
+  box-shadow: inset 0px 0px 0px 2px #039fe3;
+  background: transparent;
+  transform: translateY(-2px);
+  color: #039fe3;
 }
 </style>
