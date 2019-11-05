@@ -73,9 +73,6 @@
 </template>
 
 <style scoped>
-css {
-  all: unset
-}
 
 .container {
   border-top: 10px solid #ffc400;
@@ -201,7 +198,7 @@ li::before {
   border-radius: 5px;
   cursor: pointer;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
-  color: #f9f9f9;
+  color: #f9f9f9 !important;
   margin-bottom: 50px;
 }
 
