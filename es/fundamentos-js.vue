@@ -73,6 +73,10 @@
 </template>
 
 <style scoped>
+css {
+  all: unset
+}
+
 .container {
   border-top: 10px solid #ffc400;
 }
