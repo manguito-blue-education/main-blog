@@ -48,7 +48,8 @@
       </section>
       <section class="how-it-works">
         <h2 class="subtitle">Me interesa, ¿cómo accedo al curso?</h2>
-        <p>
+        <p>Las inscripciones al curso, están cerradas por el momento. Si deseas que te notifiquemos cuando volvamos a abrir inscripciones.</p>
+        <!-- <p>
           El curso inicia el
           <strong>18 de noviembre de 2019</strong>, puedes registrarte desde este momento en el
           formulario que se encuentra al final de la página.
@@ -57,6 +58,9 @@
 
         <a class="btn-container" href="https://mailchi.mp/488f29961dfd/manguito-js-course">
           <button class="register">Registrarme al curso</button>
+        </a> -->
+        <a class="btn-container" href="https://mailchi.mp/5f5c7b986c90/waitlist">
+          <button class="register">Notificarme</button>
         </a>
       </section>
       <!-- <section>
